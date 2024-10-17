@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Cabecalho from '@/components/Cabecalho/Cabecalho';
-import Rodape from '@/components/Rodape/Rodape';
+import Cabecalho from "@/components/Cabecalho/Cabecalho";
+import Rodape from "@/components/Rodape/Rodape";
 
 export const metadata: Metadata = {
-  title: "CP2",
-  description: "CP2 COM NEXT.JS",
+  title: "Worlds in a Collision",
+  description: "CP2 COM NEXT.JS - Worlds in a Collision",
 };
 
 export const viewport = {
