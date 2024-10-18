@@ -6,16 +6,16 @@ export default function Menu() {
     <nav>
       <ul className="ul-container flex gap-5 items-center">
         <li>
-          <Link href="#">Home</Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="#">Livro</Link>
+          <Link href="/livro">Livro</Link>
         </li>
         <li>
-          <Link href="#">Immanuel</Link>
+          <Link href="/immanuel">Immanuel</Link>
         </li>
         <li>
-          <Link href="#">Nasa</Link>
+          <Link href="/nasa">Nasa</Link>
         </li>
       </ul>
     </nav>
