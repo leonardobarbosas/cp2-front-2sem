@@ -15,6 +15,9 @@ export default function Menu() {
           <Link href="/immanuel">Immanuel</Link>
         </li>
         <li>
+          <Link href="/ideia">Ideia</Link>
+        </li>
+        <li>
           <Link href="/nasa">Nasa</Link>
         </li>
       </ul>
