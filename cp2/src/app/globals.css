@@ -26,4 +26,12 @@
       @apply text-black text-xl font-bold;
     }
   }
+
+  .div-container-ideias {
+    @apply flex flex-col items-center justify-center;
+
+    & table {
+      @apply w-5/6;
+    }
+  }
 }

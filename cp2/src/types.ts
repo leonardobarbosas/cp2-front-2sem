@@ -10,3 +10,10 @@ export type ImagemNasa = {
   img_src: string;
   earth_date: string;
 };
+
+export type IdeiaCollision = {
+  id: number;
+  capitulo: number;
+  titulo: string;
+  descricao: string;
+};
