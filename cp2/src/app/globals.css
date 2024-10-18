@@ -20,4 +20,10 @@
       }
     }
   }
+
+  .div-card {
+    & p {
+      @apply text-black text-xl font-bold;
+    }
+  }
 }

@@ -27,15 +27,26 @@ export default function Nasa() {
   console.log({ data });
 
   return (
-    <div>
+    <div className="div-nasa-container h-96 flex flex-col items-center">
       <h1>Fotos da API da Nasa</h1>
-      <div>
-        {data.map((imagem) => (
-          <div key={imagem.id}>
-            <p>ID: {imagem.id}</p>
-          </div>
-        ))}
-      </div>
+      <nav className="nav-card-container flex items-center justify-center h-full w-11/12 overflow-x-auto">
+        <div className="cards-container flex h-full gap-4">
+          {data.map((item) => (
+            <div
+              key={item.id}
+              className="div-card h-5/6 w-96 bg-custom-yellow rounded-lg "
+            >
+              <p>ID: {item.id}</p>
+              <Image
+                src={item.img_src}
+                alt="image-nasa"
+                width={250}
+                height={200}
+              ></Image>
+            </div>
+          ))}
+        </div>
+      </nav>
     </div>
   );
 }
