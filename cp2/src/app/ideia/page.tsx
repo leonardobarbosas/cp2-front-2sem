@@ -1,6 +1,7 @@
 "use client";
 
 import { IdeiaCollision } from "@/types";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -26,6 +27,7 @@ export default function Ideia() {
             <th>Capítulo</th>
             <th>Título</th>
             <th>Descrição</th>
+            <th>Imagem</th>
             <th>Visualizar</th>
           </tr>
         </thead>
@@ -36,6 +38,14 @@ export default function Ideia() {
               <td>{ideia.titulo}</td>
               <td>{ideia.descricao}</td>
               <td>
+                <Image
+                  src={ideia.imagem}
+                  alt="imagem-ideias"
+                  width="100"
+                  height="100"
+                ></Image>
+              </td>
+              <td>
                 <Link href={`/ideia/${ideia.id}`}>Ver</Link>
               </td>
             </tr>
@@ -43,7 +53,7 @@ export default function Ideia() {
         </tbody>
         <tfoot>
           <tr>
-            <td colSpan={4}>Total de Ideias: {ideias.length}</td>
+            <td colSpan={5}>Total de Ideias: {ideias.length}</td>
           </tr>
         </tfoot>
       </table>

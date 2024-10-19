@@ -3,30 +3,35 @@
     "id": 1,
     "capitulo": 1,
     "titulo": "The Celestial Battle",
-    "descricao": "Explora a teoria de que eventos cósmicos cataclísmicos modelaram a história da Terra."
+    "descricao": "Explora a teoria de que eventos cósmicos cataclísmicos modelaram a história da Terra.",
+    "imagem": "https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus"
   },
   {
     "id": 2,
     "capitulo": 2,
     "titulo": "The Deluge",
-    "descricao": "Discute evidências de uma grande inundação global e suas implicações históricas e mitológicas."
+    "descricao": "Discute evidências de uma grande inundação global e suas implicações históricas e mitológicas.",
+    "imagem": "https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus"
   },
   {
     "id": 3,
     "capitulo": 3,
     "titulo": "The Comet Venus",
-    "descricao": "Analisa a ideia de que o planeta Vênus era originalmente um cometa que causou grandes perturbações na Terra."
+    "descricao": "Analisa a ideia de que o planeta Vênus era originalmente um cometa que causou grandes perturbações na Terra.",
+    "imagem": "https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus"
   },
   {
     "id": 4,
     "capitulo": 4,
     "titulo": "Collisions of Worlds",
-    "descricao": "Descreve as interações catastróficas entre corpos celestes e como isso afetou a vida na Terra."
+    "descricao": "Descreve as interações catastróficas entre corpos celestes e como isso afetou a vida na Terra.",
+    "imagem": "https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus"
   },
   {
     "id": 5,
     "capitulo": 5,
     "titulo": "The Birth of Venus",
-    "descricao": "Teoriza sobre o nascimento de Vênus de Júpiter e as consequências desse evento para as civilizações antigas."
+    "descricao": "Teoriza sobre o nascimento de Vênus de Júpiter e as consequências desse evento para as civilizações antigas.",
+    "imagem": "https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus"
   }
 ]

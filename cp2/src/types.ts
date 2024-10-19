@@ -16,4 +16,5 @@ export type IdeiaCollision = {
   capitulo: number;
   titulo: string;
   descricao: string;
+  imagem: string;
 };
