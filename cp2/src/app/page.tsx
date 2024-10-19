@@ -1,6 +1,3 @@
-import Image from "next/image";
-import imgBackground from "../img/background.jpg";
-
 export default function Home() {
   return (
     <div className="home-container flex items-center justify-center bg-[url('../img/background.jpg')] bg-cover w-full h-80vh">
