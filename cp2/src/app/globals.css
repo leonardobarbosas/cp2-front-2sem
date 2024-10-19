@@ -30,8 +30,28 @@
   .div-container-ideias {
     @apply flex flex-col items-center justify-center;
 
+    & h1 {
+      @apply text-3xl font-bold md:text-custom-yellow;
+    }
+
     & table {
-      @apply w-5/6;
+      @apply w-5/6 bg-stone-900 md:text-custom-yellow text-center m-4 border-2 border-stone-800 shadow-sm shadow-black;
+
+      & th {
+        @apply text-xl;
+      }
+
+      & td {
+        @apply text-lg;
+      }
+
+      & tr {
+        @apply border-b-2 border-stone-800;
+      }
+
+      & tr:hover {
+        @apply bg-stone-800;
+      }
     }
   }
 }
